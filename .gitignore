@@ -1,0 +1,56 @@
+# Node modules (if applicable)
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+public/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Cache
+.cache/
+.vite/
+.next/
+*.tsbuildinfo
+
+# Docker
+Dockerfile.*
+docker-compose.override.yml
+docker-compose.dev.yml
+.docker/
+*.tar
+*.pid
+
+# Docker volumes / temp data
+tmp/
+*.sock
+
+# CDN-specific temp or generated content
+cdn-temp/
+cdn-upload/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Dependency lock files (optional – only if you're not committing them)
+# package-lock.json
+# yarn.lock
