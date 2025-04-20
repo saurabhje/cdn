@@ -1,11 +1,6 @@
 # Node modules (if applicable)
 node_modules/
 
-# Build output
-dist/
-build/
-out/
-public/
 
 # Logs
 logs/
@@ -21,9 +16,7 @@ Thumbs.db
 # Environment files
 .env
 .env.*
-
-# Cache
-.cache/
+cache/
 .vite/
 .next/
 *.tsbuildinfo
@@ -47,10 +40,4 @@ cdn-upload/
 # IDEs and editors
 .vscode/
 .idea/
-
-# Test coverage
 coverage/
-
-# Dependency lock files (optional – only if you're not committing them)
-# package-lock.json
-# yarn.lock
