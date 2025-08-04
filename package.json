@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/saurabhje/cdn/issues"
   },
-  "homepage": "https://github.com/saurabhje/cdn#readme"
+  "homepage": "https://github.com/saurabhje/cdn#readme",
+  "dependencies": {
+    "mime-types": "^3.0.1"
+  }
 }
